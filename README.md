@@ -1,4 +1,4 @@
-(Testando nova feature/alteração)
+(Alterando o README.md)
 
 # b7cicd-example
 
