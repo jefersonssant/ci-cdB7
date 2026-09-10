@@ -25,7 +25,7 @@ jobs:
         run: npm test
   build:
     runs-on: ubuntu-latest
-    needs: tests
+    needs: test
     #Com o needs criamos uma sequência, então primeiro ele roda o tests e depois este. 
     steps:
         - name: Checkout do código
@@ -38,6 +38,6 @@ jobs:
 
         - name: Instala dependências
           run: npm install
-          
+
         - name: Roda o build
           run: npm run build
